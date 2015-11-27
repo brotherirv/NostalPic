@@ -4,3 +4,15 @@
   Author: Joe, Anthony, Irvin
 */
 
+.main-display {
+	background-color: red;
+}
+
+.main-display img{
+	width: 100px;
+	height: 100px;
+}
+
+.blue {
+	background-color: blue;
+}

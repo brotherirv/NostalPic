@@ -23,7 +23,7 @@ if (have_posts()) : while (have_posts()) : the_post();
 <?php 
 
 $args = array ('post_type' => 'photo',
-			   'posts_per_page' => '15'
+			   'posts_per_page' => '20'
 );
 
 $photo = new WP_Query( $args );
@@ -33,7 +33,7 @@ if ($photo -> have_posts()) : while ($photo -> have_posts()) : $photo -> the_pos
 
 ?>
 <div class="row">
-	<div class="col-xs-3">
+	<div class="col-xs-12">
       
       	<a href="<?php the_permalink() ?>">
       		<img src="<?php the_field('image');?>" alt="">

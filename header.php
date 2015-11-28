@@ -11,3 +11,25 @@
 </head>
 <body>
   <div class="container">
+
+  	<div class="row hd-nav">
+  		<div class="col-xs-3 left-side">
+  		<p>Photos | Illustrations</p>
+  		</div>
+  		<div class="col-xs-6 logo">
+  			<img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/> 
+  		</div>
+  		<div class="col-xs-3 right-side">
+  		<p>Sign Up | Login | Pricing</p>
+  		</div>
+	</div><!-- end hd-nav -->
+
+ 	
+
+ 	<div class="row hd-image">
+ 		<div class="col-xs-12">
+ 			<div class="hd-search">
+	  			<?php get_search_form();?>
+	  		</div>
+ 		</div>
+ 	</div>

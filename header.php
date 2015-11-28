@@ -14,13 +14,13 @@
 
   	<div class="row hd-nav">
   		<div class="col-xs-3 left-side">
-  		<p>Photos | Illustrations</p>
+  			<p>Photos | Illustrations</p>
   		</div>
   		<div class="col-xs-6 logo">
   			<img src="<?php bloginfo('template_directory'); ?>/images/logo.png"/> 
   		</div>
   		<div class="col-xs-3 right-side">
-  		<p>Sign Up | Login | Pricing</p>
+  			<p>Sign Up | Login | Pricing</p>
   		</div>
 	</div><!-- end hd-nav -->
 

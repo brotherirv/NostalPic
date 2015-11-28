@@ -90,10 +90,41 @@
 	background-repeat: no-repeat;
 }
 
+.concrete {
+	background-image: url('images/concrete.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding:none;
+	margin-top:-20px;
+	padding-top: 65px;
+}
 
+.box-1 { 
+	float:left; 
+	clear:left;
+	height: 350px; 
+	width: 30%; 
+	margin-left: 25px;
+	overflow: hidden;
+	background-color: red; 
+}
+.box { 
+	float:left; 
+	height: 350px;
+	width: 30%; 
+	margin-left: 3%;
+	overflow: hidden; 
+	background-color: red;
+	background-size: 100%;
+}
 
+.box-wrap {
+	padding-top:50px;
+}
 
-
+.lower-stuff {
+	margin-top:150px;
+}
 
 
 
